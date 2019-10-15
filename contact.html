@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- ==== Website Title ==== -->
+    <title>NextLinkLabs</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/venobox.css">
+    <link rel="stylesheet" href="css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+    <!-- ==== Header Part HTML Start ==== -->
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fas fa-bars"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="how-work.html">How We Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="service.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="insight.html">Insights</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="career.html">Careers</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==== Header Part HTML End ==== -->
+
+    <!-- ==== Contact Part HTML Start ==== -->
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 m-auto text-center">
+                    <div class="contact-form">
+                        <h2>Let's Get in Touch</h2>
+                        <p>We’re here to help your business meet its goals</p>
+                        <form>
+                            <input type="text" placeholder="Name" class="form-control">
+                            <input type="email" placeholder="Email" class="form-control">
+                            <textarea placeholder="Message" class="form-control"></textarea>
+                            <button type="submit" class="cb-btn btn-solid w-100">Send Us</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==== Contact Part HTML End ==== -->
+
+    <!-- ==== Map & Contact Address Part HTML Strat ==== -->
+
+    <section id="contact-map">
+        <div class="row mx-0">
+            <div class="col-lg-6">
+                <div id="test" class="gmap3"></div>
+            </div>
+            <div class="col-lg-6">
+                <div class="contact-address text-center">
+                    <img src="images/logo.png" alt="Logo">
+                    <div class="address-item">
+                        <img src="images/location.png" alt="Location">
+                        <p>2545 Railroad Street, Suite 100 <br> Pittsburgh PA, 15222</p>
+                    </div>
+                    <div class="address-item">
+                        <img src="images/phone.png" alt="Location">
+                        <a href="tel:412-258-3252">412-258-3252</a>
+                    </div>
+                    <div class="address-item">
+                        <img src="images/email.png" alt="Location">
+                        <a href="mailto:info@nextlinklabs.com">info@nextlinklabs.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==== Map & Contact Address Part HTML End ==== -->
+
+    <!-- ==== Footer Part HTML Start ==== -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 m-auto text-center">
+                    <div class="footer-desc">
+                        <h3>Hire Us</h3>
+                        <p>Our team of experts is ready to assist you with growing your tech-enabled business.</p>
+                        <ul>
+                            <li><a href="#">1 (412) 258-3252</a></li>
+                            <li><a href="#">info@nextlinklabs.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="cpryt">
+                        <p>Copyright NextLink Labs 2019</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==== Footer Part HTML End ==== -->
+
+    <!-- ==== JavaScript File Path ==== -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/venobox.min.js"></script>
+    <script src="js/gmap3.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script>
+        $(function () {
+            $('#test')
+                .gmap3({
+                    center: [48.8620722, 2.352047],
+                    zoom: 4
+                })
+                .marker([
+                    { position: [48.8620722, 2.352047] },
+                    { address: "86000 Poitiers, France" },
+                    { address: "66000 Perpignan, France", icon: "http://maps.google.com/mapfiles/marker_grey.png" }
+                ])
+                .on('click', function (marker) {
+                    marker.setIcon('http://maps.google.com/mapfiles/marker_green.png');
+                })
+                .then(function (markers) {
+                    markers[1].setIcon('http://maps.google.com/mapfiles/marker_orange.png');
+                })
+                ;
+        });
+    </script>
+</body>
+
+</html>

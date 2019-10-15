@@ -1,0 +1,799 @@
+/* ==== Xtra Small Devices Responsive Start ==== */
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+    .navbar {
+        padding: 10px;
+    }
+    .navbar-brand img {
+        width: 100px;
+    }
+    .navbar ul {
+        background: #fff;
+        padding: 10px 0;
+    }
+    .navbar-light .navbar-toggler {
+        color: #8200FF;
+        border: 2px solid #8200FF;
+        font-size: 24px;
+    }
+    #banner {
+        padding-top: 130px;
+        padding-bottom: 80px;
+    }
+    .banner-desc h1 {
+        font-size: 26px;
+        padding-bottom: 20px;
+    }
+    .banner-desc p {
+        padding-bottom: 35px;
+    }
+    .banner-desc ul li:first-child {
+        margin-bottom: 30px;
+    }
+    .sec-header h2:before {
+        width: 45px;
+        left: -65px;
+    }
+    .sec-header h2:after {
+        width: 45px;
+        right: -65px;
+    }
+    .service-item img {
+        width: 100%;
+    }
+    .sec-header h2 {
+        margin-bottom: 25px;
+        font-size: 24px;
+    }
+    #we-do {
+        padding-bottom: 30px;
+    }
+    .we-do-item {
+        margin-bottom: 30px;
+    }
+    #insights .sec-header h2 {
+        margin-bottom: 40px;
+    }
+    #insights {
+        padding-bottom: 30px;
+    }
+    .insight-item {
+        margin-bottom: 30px;
+    }
+    .jump-btn {
+        margin-top: 30px;
+    }
+    .jump-btn ul li {
+        text-align: left;
+    }
+    .jump-btn ul li a {
+        margin: 0;
+    }
+    .jump-btn ul li:last-child a {
+        padding-left: 0;
+    }
+    #service .sec-header h2 {
+        margin-bottom: 40px;
+    }
+    .service-item {
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    .service-btn {
+        margin-top: 10px;
+    }
+    /* ==== Home Page Ends ==== */
+    #inner-page .navbar-light .navbar-toggler {
+        color: #fff;
+        border: 2px solid #fff;
+    }
+    #inner-page .sticky .navbar-toggler {
+        color: #8200FF !important;
+        border: 2px solid #8200FF !important;
+    }
+    #inner-page .navbar ul {
+        background: linear-gradient( to right, rgba(128, 42, 193), rgba(153, 52, 168));
+    }
+    #inner-page .sticky.navbar ul {
+        background: #fff;
+    }
+    #breadcumb {
+        padding-top: 120px;
+        padding-bottom: 50px;
+    }
+    #breadcumb .sec-header h2:before {
+        display: none;
+    }
+    #breadcumb .sec-header h2:after {
+        display: none;
+    }
+    #pillars {
+        padding-bottom: 30px;
+    }
+    .pillar-item {
+        background: #F9F9F9;
+        margin-bottom: 30px;
+        height: auto;
+    }
+    .white {
+        background: #8200FF;
+    }
+    .pillar-item-main:before {
+        display: none;
+    }
+    .pillar-item-main2:before {
+        display: none;
+    }
+    .pillar-item-main:after {
+        display: none;
+    }
+    .pillar-item-main2:after {
+        display: none;
+    }
+    .pillar-item h3 {
+        font-size: 23px;
+        padding-bottom: 20px;
+    }
+    .white h3 {
+        color: #fff;
+    }
+    .white p {
+        color: #fff;
+    }
+    .sm-banner-desc h3 {
+        font-size: 24px;
+        padding: 0;
+        padding-bottom: 40px;
+    }
+    /* ==== How Works Page End ===== */
+    #inner-page #service {
+        padding-bottom: 30px;
+    }
+    /* ==== Service Page End ===== */
+    #insight-page {
+        padding-bottom: 30px;
+    }
+    .episode-item {
+        margin-bottom: 30px;
+    }
+    /* ==== About Page Ends ==== */
+    #career .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        background-color: transparent;
+        border-bottom: 0;
+    }
+    .mob-condi-nav {
+        margin-bottom: 0;
+    }
+    .ic-mob-conditions .nav {
+        border: 2px solid rgba(132, 0, 255, 0.5);
+        box-shadow: 0px 0px 15px 0px #ddd;
+    }
+    /* ==== Career Page Ends ==== */
+    .case-item {
+        display: block;
+        border-radius: 40px;
+    }
+    .case-item .case-img {
+        width: 100%;
+    }
+    .case-item .case-desc {
+        width: 100%;
+        padding: 30px;
+    }
+    .case-item .case-desc p {
+        padding-right: 0;
+    }
+    /* ==== Case Page Ends ==== */
+    .single-right {
+        display: none;
+    }
+    .test-desc p {
+        font-size: 18px;
+        line-height: 26px;
+        padding: 0;
+        padding-bottom: 20px;
+    }
+    .quote {
+        top: -24px;
+        left: -7px;
+        opacity: .2;
+    }
+    #case-test {
+        padding-bottom: 0;
+    }
+    .test-desc h6 {
+        font-size: 14px;
+    }
+    .more-case-item {
+        margin-bottom: 30px;
+    }
+    #more-case {
+        padding-bottom: 30px;
+    }
+    /* ==== Single Case Page Ends ==== */
+    .s-episode-bread h2 {
+        font-size: 25px;
+    }
+    .tag li {
+        margin-bottom: 5px;
+    }
+    #more-insight {
+        padding-bottom: 30px;
+    }
+    /* ==== Single Episodes Page Ends ==== */
+    .single-career-btn {
+        text-align: center;
+    }
+    .single-career-btn li:first-child {
+        margin-bottom: 20px;
+    }
+    .single-career-btn li a {
+        margin: 0;
+    }
+    /* ==== Single Career Page Ends ==== */
+    .devops-item h2 {
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+    .devops-desc p {
+        padding: 0;
+    }
+    #single-service .inner-header h2 {
+        font-size: 20px;
+    }
+    #ser-test {
+        padding-top: 30px;
+    }
+    .ser-test-head {
+        padding-top: 20px;
+    }
+    #why {
+        padding-bottom: 20px;
+    }
+    .next-link-item {
+        margin-bottom: 30px;
+    }
+    /* ==== Single Service Page Ends ==== */
+    .contact-address {
+        padding-bottom: 30px;
+    }
+    /* ==== Contact Page Ends ==== */
+}
+
+/* ==== Xtra Small Devices Responsive End ==== */
+
+/* ==== Small Devices Responsive Start ==== */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar {
+        padding: 10px;
+    }
+    .navbar-brand img {
+        width: 100px;
+    }
+    .navbar ul {
+        background: #fff;
+        padding: 10px 0;
+    }
+    .navbar-light .navbar-toggler {
+        color: #8200FF;
+        border-color: #8200FF;
+        font-size: 24px;
+    }
+    #banner {
+        padding-top: 145px;
+        padding-bottom: 100px;
+    }
+    .banner-desc h1 {
+        font-size: 26px;
+        padding-bottom: 20px;
+    }
+    .banner-desc p {
+        padding-bottom: 35px;
+    }
+    .sec-header h2:before {
+        width: 45px;
+        left: -65px;
+    }
+    .sec-header h2:after {
+        width: 45px;
+        right: -65px;
+    }
+    .sec-header h2 {
+        margin-bottom: 25px;
+    }
+    .we-do-item {
+        margin: 0;
+    }
+    #insights .sec-header h2 {
+        margin-bottom: 40px;
+    }
+    #insights {
+        padding-bottom: 30px;
+    }
+    .insight-item {
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    .jump-btn {
+        margin-top: 30px;
+    }
+    .jump-btn ul li {
+        text-align: left;
+    }
+    .jump-btn ul li a {
+        margin: 0;
+    }
+    .jump-btn ul li:last-child a {
+        padding-left: 0;
+    }
+    #service .sec-header h2 {
+        margin-bottom: 40px;
+    }
+    .service-item {
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    .service-btn {
+        margin-top: 10px;
+    }
+    /* ==== Home Page Ends ==== */
+    #inner-page .navbar-light .navbar-toggler {
+        color: #fff;
+        border: 2px solid #fff;
+    }
+    #inner-page .sticky .navbar-toggler {
+        color: #8200FF !important;
+        border: 2px solid #8200FF !important;
+    }
+    #inner-page .navbar ul {
+        background: linear-gradient( to right, rgba(128, 42, 193), rgba(153, 52, 168));
+    }
+    #inner-page .sticky.navbar ul {
+        background: #fff;
+    }
+    #breadcumb {
+        padding-top: 120px;
+        padding-bottom: 50px;
+    }
+    #breadcumb .sec-header h2:before {
+        display: none;
+    }
+    #breadcumb .sec-header h2:after {
+        display: none;
+    }
+    #pillars {
+        padding-bottom: 30px;
+    }
+    .pillar-item {
+        background: #F9F9F9;
+        margin-bottom: 30px;
+        height: auto;
+    }
+    .white {
+        background: #8200FF;
+    }
+    .pillar-item-main:before {
+        display: none;
+    }
+    .pillar-item-main2:before {
+        display: none;
+    }
+    .pillar-item-main:after {
+        display: none;
+    }
+    .pillar-item-main2:after {
+        display: none;
+    }
+    .pillar-item h3 {
+        font-size: 23px;
+        padding-bottom: 20px;
+    }
+    .white h3 {
+        color: #fff;
+    }
+    .white p {
+        color: #fff;
+    }
+    /* ==== How Works Page End ===== */
+    #inner-page #service {
+        padding-bottom: 30px;
+    }
+    /* ==== Service Page End ===== */
+    #insight-page {
+        padding-bottom: 30px;
+    }
+    .episode-item {
+        margin-bottom: 30px;
+    }
+    /* ==== Insight Page Ends ==== */
+    .about-overlay p {
+        line-height: 19px;
+        font-size: 14px;
+    }
+    .about-overlay h4 {
+        font-size: 17px;
+        line-height: 10px;
+    }
+    .about-overlay span {
+        font-size: 13px;
+    }
+    /* ==== About Page Ends ==== */
+    #career .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        background-color: transparent;
+        border-bottom: 0;
+    }
+    .mob-condi-nav {
+        margin-bottom: 0;
+    }
+    .ic-mob-conditions .nav {
+        border: 2px solid rgba(132, 0, 255, 0.5);
+        box-shadow: 0px 0px 15px 0px #ddd;
+    }
+    /* ==== Career Page Ends ==== */
+    .case-item {
+        display: block;
+        border-radius: 40px;
+    }
+    .case-item .case-img {
+        width: 100%;
+    }
+    .case-item .case-desc {
+        width: 100%;
+        padding: 30px;
+    }
+    .case-item .case-desc p {
+        padding-right: 0;
+    }
+    .case-item .case-img img {
+        border-radius: 40px;
+    }
+    /* ==== Case Page Ends ==== */
+    .single-right {
+        display: none;
+    }
+    .test-desc p {
+        font-size: 18px;
+        line-height: 26px;
+        padding: 0;
+        padding-bottom: 20px;
+    }
+    .quote {
+        top: -24px;
+        left: -7px;
+        opacity: .2;
+    }
+    #case-test {
+        padding-bottom: 0;
+    }
+    .test-desc h6 {
+        font-size: 14px;
+    }
+    .more-case-item {
+        margin-bottom: 30px;
+    }
+    #more-case {
+        padding-bottom: 30px;
+    }
+    /* ==== Single Case Page Ends ==== */
+    .s-episode-bread h2 {
+        font-size: 25px;
+    }
+    .tag li {
+        margin-bottom: 5px;
+    }
+    #more-insight {
+        padding-bottom: 30px;
+    }
+    /* ==== Single Career Page Ends ==== */
+    .devops-item h2 {
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+    .devops-desc p {
+        padding: 0;
+    }
+    #ser-test {
+        padding-top: 30px;
+    }
+    #why {
+        padding-bottom: 20px;
+    }
+    .next-link-item {
+        margin-bottom: 30px;
+    }
+    /* ==== Single Service Page Ends ==== */
+    .contact-address {
+        padding-bottom: 30px;
+    }
+    /* ==== Contact Page Ends ==== */
+}
+
+/* ==== Small Devices Responsive End ==== */
+
+/* ==== Medium Devices Responsive Start ==== */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar {
+        padding: 10px;
+    }
+    .navbar-brand img {
+        width: 100px;
+    }
+    .navbar ul {
+        background: #fff;
+        padding: 10px 0;
+    }
+    .navbar-light .navbar-toggler {
+        color: #8200FF;
+        border-color: #8200FF;
+        font-size: 24px;
+    }
+    #banner {
+        padding-top: 145px;
+        padding-bottom: 100px;
+    }
+    .banner-desc h1 {
+        font-size: 26px;
+        padding-bottom: 20px;
+    }
+    .banner-desc p {
+        padding-bottom: 35px;
+    }
+    .sec-header h2:before {
+        width: 45px;
+        left: -65px;
+    }
+    .sec-header h2:after {
+        width: 45px;
+        right: -65px;
+    }
+    .sec-header h2 {
+        margin-bottom: 25px;
+    }
+    .we-do-item {
+        margin: 0;
+    }
+    #insights .sec-header h2 {
+        margin-bottom: 40px;
+    }
+    #insights {
+        padding-bottom: 30px;
+    }
+    .insight-item {
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    .jump-btn ul li {
+        text-align: left;
+    }
+    .jump-btn ul li a {
+        margin: 0;
+    }
+    .jump-btn ul li:last-child a {
+        padding-left: 0;
+    }
+    #service .sec-header h2 {
+        margin-bottom: 40px;
+    }
+    .service-item {
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    .service-btn {
+        margin-top: 10px;
+    }
+    /* ==== Home Page Ends ==== */
+    #inner-page .navbar-light .navbar-toggler {
+        color: #fff;
+        border: 2px solid #fff;
+    }
+    #inner-page .sticky .navbar-toggler {
+        color: #8200FF !important;
+        border: 2px solid #8200FF !important;
+    }
+    #inner-page .navbar ul {
+        background: linear-gradient( to right, rgba(128, 42, 193), rgba(153, 52, 168));
+    }
+    #inner-page .sticky.navbar ul {
+        background: #fff;
+    }
+    #breadcumb {
+        padding-top: 120px;
+        padding-bottom: 50px;
+    }
+    #pillars {
+        padding-bottom: 30px;
+    }
+    .pillar-item {
+        background: #F9F9F9;
+        margin-bottom: 30px;
+        height: auto;
+    }
+    .white {
+        background: #8200FF;
+    }
+    .pillar-item-main:before {
+        display: none;
+    }
+    .pillar-item-main2:before {
+        display: none;
+    }
+    .pillar-item-main:after {
+        display: none;
+    }
+    .pillar-item-main2:after {
+        display: none;
+    }
+    .pillar-item h3 {
+        font-size: 23px;
+        padding-bottom: 20px;
+    }
+    .white h3 {
+        color: #fff;
+    }
+    .white p {
+        color: #fff;
+    }
+    /* ==== How Works Page End ===== */
+    #inner-page #service {
+        padding-bottom: 30px;
+    }
+    /* ==== Service Page End ===== */
+    #insight-page {
+        padding-bottom: 30px;
+    }
+    .episode-item {
+        margin-bottom: 30px;
+    }
+    .case-desc {
+        padding-left: 30px;
+    }
+    .ip-item .case-desc h3 {
+        font-size: 16px;
+        line-height: 25px;
+        padding-bottom: 0px;
+    }
+    .ip-item .case-desc p {
+        line-height: 20px;
+    }
+    /* ==== Insight Page Ends ==== */
+    .about-overlay {
+        padding-top: 40px;
+    }
+    /* ==== About Page Ends ==== */
+    #career .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        background-color: transparent;
+        border-bottom: 0;
+    }
+    .mob-condi-nav {
+        margin-bottom: 0;
+    }
+    .ic-mob-conditions .nav {
+        border: 2px solid rgba(132, 0, 255, 0.5);
+        box-shadow: 0px 0px 15px 0px #ddd;
+    }
+    /* ==== Career Page Ends ==== */
+    .case-item .case-desc {
+        padding: 20px 30px;
+    }
+    .case-item .case-desc p {
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+    .case-desc h3 {
+        font-size: 23px;
+        padding-bottom: 10px;
+        line-height: 25px;
+    }
+    /* ==== Case Page Ends ==== */
+    .single-right {
+        display: none;
+    }
+    .test-desc p {
+        font-size: 18px;
+        line-height: 26px;
+        padding: 0 70px;
+        padding-bottom: 20px;
+    }
+    .quote {
+        top: -24px;
+        left: -7px;
+        opacity: .2;
+    }
+    #case-test {
+        padding-bottom: 0;
+    }
+    .test-desc h6 {
+        font-size: 14px;
+    }
+    .more-case-item {
+        margin-bottom: 30px;
+    }
+    #more-case {
+        padding-bottom: 30px;
+    }
+    /* ==== Single Case Page Ends ==== */
+    #more-insight {
+        padding-bottom: 30px;
+    }
+    /* ==== Single Career Page Ends ==== */
+    .devops-item h2 {
+        font-size: 35px;
+    }
+    #ser-test {
+        padding-top: 30px;
+    }
+    #why {
+        padding-bottom: 20px;
+    }
+    .next-link-item {
+        margin-bottom: 30px;
+    }
+    /* ==== Single Service Page Ends ==== */
+    .contact-address {
+        padding-bottom: 30px;
+    }
+    /* ==== Contact Page Ends ==== */
+}
+
+/* ==== Medium Devices Responsive End ==== */
+
+/* ==== Large Devices Responsive End ==== */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .pillar-item {
+        height: auto;
+    }
+    .case-desc {
+        padding-left: 30px;
+    }
+    .ip-item .case-desc h3 {
+        font-size: 16px;
+        line-height: 25px;
+        padding-bottom: 0px;
+    }
+    .ip-item .case-desc p {
+        line-height: 20px;
+    }
+    .about-overlay p {
+        line-height: 19px;
+        font-size: 14px;
+    }
+    .about-overlay h4 {
+        font-size: 17px;
+        line-height: 10px;
+    }
+    .about-overlay span {
+        font-size: 13px;
+    }
+    #career .nav-pills .nav-link {
+        font-size: 15px;
+    }
+    /* ==== Career Page Ends ==== */
+    .case-item .case-desc {
+        padding: 20px 30px;
+    }
+    .case-item .case-desc p {
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+    .case-desc h3 {
+        font-size: 23px;
+        padding-bottom: 10px;
+        line-height: 25px;
+    }
+    .contact-address {
+        padding-top: 20px;
+    }
+
+    .address-item {
+        margin: 5px 0;
+    }
+
+    .address-item img {
+        padding-bottom: 1px;
+    }
+}
+
+/* ==== Large Devices Responsive End ==== */

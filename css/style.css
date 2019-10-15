@@ -1,0 +1,1729 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a, a:hover {
+    text-decoration: none;
+    display: inline-block;
+}
+
+img {
+    vertical-align: middle;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+    margin-bottom: 0;
+}
+
+span {
+    display: inline-block;
+}
+
+p {
+    font-family: rale-regular;
+    font-size: 16px;
+    color: #707070;
+    line-height: 28px;
+}
+
+/* ==== Fonts CSS Start ==== */
+
+@font-face {
+    src: url(../fonts/Raleway-Bold.ttf);
+    font-family: rale-bold;
+}
+
+@font-face {
+    src: url(../fonts/Raleway-SemiBold.ttf);
+    font-family: rale-semibold;
+}
+
+@font-face {
+    src: url(../fonts/Raleway-Medium.ttf);
+    font-family: rale-medium;
+}
+
+@font-face {
+    src: url(../fonts/Raleway-Regular.ttf);
+    font-family: rale-regular;
+}
+
+@font-face {
+    src: url(../fonts/Pe-icon-7-stroke.ttf);
+    font-family: pe-icon;
+}
+
+/* ==== Fonts CSS End ==== */
+
+/* ==== Navbar Part CSS Start ==== */
+
+.navbar {
+    padding: 20px 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.navbar.sticky {
+    position: fixed;
+    background: #fff;
+    padding: 10px;
+    box-shadow: 0px 5px 5px 0px #ddd;
+}
+
+#inner-page .logo-white {
+    display: block;
+}
+
+#inner-page .logo-black {
+    display: none;
+}
+
+#inner-page .sticky .logo-white {
+    display: none;
+}
+
+#inner-page .sticky .logo-black {
+    display: block;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-family: rale-regular;
+    font-size: 16px;
+    color: #707070;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #8200FF;
+}
+
+.active .nav-link {
+    color: #8200FF !important;
+}
+
+#inner-page .navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #000;
+}
+
+#inner-page .active .nav-link {
+    color: #000 !important;
+}
+
+#inner-page .sticky .nav-link {
+    color: #000 !important;
+}
+
+#inner-page .sticky .active .nav-link {
+    color: #8200FF !important;
+}
+
+#inner-page .sticky .nav-link:hover {
+    color: #8200FF !important;
+}
+
+/* ==== Navbar Part CSS End ==== */
+
+/* ==== Banner Part CSS Start ==== */
+
+#banner {
+    padding: 100px 0;
+    padding-top: 170px;
+}
+
+.banner-desc h1 {
+    font-family: rale-semibold;
+    font-size: 32px;
+    color: #000000;
+    padding-bottom: 35px;
+}
+
+.banner-desc h1 span {
+    color: #8200FF;
+}
+
+.banner-desc p {
+    font-family: rale-regular;
+    font-size: 16px;
+    color: #707070;
+    line-height: 26px;
+    padding-bottom: 55px;
+}
+
+.banner-desc ul li {
+    display: inline-block;
+}
+
+.cb-btn {
+    font-family: rale-regular;
+    font-size: 18px;
+    padding: 12px 0;
+    border-radius: 5px;
+    width: 230px;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.btn-solid {
+    background: #8200FF;
+    color: #fff;
+    border: 2px solid #8200FF;
+    background-image: linear-gradient(to right, #8200FF 0%, #8200FF 33.3333%, #000 66.666667%, #000 100%);
+    background-size: 300% auto;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.btn-solid:hover {
+    background-position: right center;
+    color: #fff;
+    border-color: #000;
+}
+
+.btn-border {
+    border: 2px solid #707070;
+    color: #000;
+    background-image: linear-gradient(to right, transparent 0%, transparent 33.3333%, #707070 66.666667%, #707070 100%);
+    background-size: 300% auto;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.btn-border:hover {
+    background-position: right center;
+    color: #fff;
+}
+
+/* ==== Banner Part CSS End ==== */
+
+/* ==== We Do Part CSS Start ==== */
+
+#we-do {
+    background: #F9F9F9;
+    padding: 60px 0;
+}
+
+.sec-header h2 {
+    font-family: rale-semibold;
+    font-size: 29px;
+    color: #8200FF;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.sec-header h2:before {
+    position: absolute;
+    width: 65px;
+    height: 3px;
+    background: #8200FF;
+    content: '';
+    top: 50%;
+    left: -90px;
+    transform: translateY(-50%);
+}
+
+.sec-header h2:after {
+    position: absolute;
+    width: 65px;
+    height: 3px;
+    background: #8200FF;
+    content: '';
+    top: 50%;
+    right: -90px;
+    transform: translateY(-50%);
+}
+
+.we-do-desc p {
+    line-height: 30px;
+    padding-bottom: 40px;
+}
+
+.we-do-item {
+    position: relative;
+    margin: 0 10px;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(161, 61, 255, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay h6 {
+    font-family: rale-semibold;
+    font-size: 24px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+/* ==== We Do Part CSS End ==== */
+
+/* ==== Insights Part CSS Start ==== */
+
+#insights {
+    padding: 60px 0;
+}
+
+#insights .sec-header h2 {
+    margin-bottom: 60px;
+}
+
+.insight-item {
+    margin: 0 15px;
+    box-shadow: 0px 0px 20px 0px #ddd;
+    border-radius: 20px;
+}
+
+.insight-content {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.insight-content h6 {
+    font-family: rale-bold;
+    font-size: 15px;
+    color: #8200FF;
+    padding-bottom: 5px;
+}
+
+.insight-page .insight-content a {
+    font-family: rale-bold;
+    font-size: 15px;
+    color: #8200FF;
+    padding-bottom: 5px;
+}
+
+.insight-content a {
+    font-family: rale-bold;
+    font-size: 22px;
+    color: #000;
+}
+
+.insight-content span {
+    font-family: rale-regular;
+    font-size: 15px;
+    color: #707070;
+    margin-left: 10px;
+}
+
+.insight-content p {
+    line-height: 22px;
+    padding-top: 15px;
+    color: #000;
+    font-size: 15px;
+}
+
+.read-btn {
+    margin-top: 10px;
+}
+
+.read-btn a {
+    font-family: rale-bold;
+    font-size: 15px;
+    color: #707070;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.read-btn a span {
+    width: 17px;
+    height: 17px;
+    background: #8200FF;
+    border-radius: 50%;
+    margin-left: 0;
+    margin-right: 5px;
+    margin-bottom: 3px;
+    vertical-align: middle;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+/* ==== Insights Part CSS End ==== */
+
+/* ==== Jumpbotron Part CSS Start ==== */
+
+#jumpbotron {
+    background: url(../images/jumpbotron-bg.png) no-repeat center;
+    background-size: cover;
+    padding: 50px 0;
+    position: relative;
+}
+
+#jumpbotron:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(132, 0, 255, 0.75);
+}
+
+.jump-desc h3 {
+    font-family: rale-bold;
+    font-size: 25px;
+    color: #fff;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+}
+
+.jump-desc p {
+    color: #fff;
+    line-height: 22px;
+    padding-top: 15px;
+}
+
+.jump-btn ul li {
+    text-align: right;
+}
+
+.jump-btn ul li a {
+    text-align: center;
+}
+
+.jump-btn ul li:last-child {
+    text-align: left;
+    margin-top: 15px;
+}
+
+.jump-btn ul li:last-child a {
+    font-family: rale-regular;
+    font-size: 16px;
+    padding-left: 15px;
+    color: #fff;
+}
+
+/* ==== Jumpbotron Part CSS End ==== */
+
+/* ==== Service Part CSS Start ==== */
+
+#service {
+    padding: 60px 0;
+}
+
+#service .sec-header h2 {
+    margin-bottom: 50px;
+}
+
+.service-item {
+    background: #F1F1F1;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px 0px #c9c8c8;
+    margin: 0 10px;
+    border: 2px solid #8200FF;
+}
+
+.service-item h4 {
+    font-family: rale-semibold;
+    font-size: 25px;
+    color: #000;
+    padding: 20px 0;
+    padding-top: 25px;
+}
+
+.service-btn {
+    margin-top: 50px;
+}
+
+/* ==== Service Part CSS End ==== */
+
+/* ==== Footer Part CSS Start ==== */
+
+footer {
+    background: url(../images/footer-bg.png) no-repeat center;
+    background-size: cover;
+    padding: 60px 0;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+footer:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient( to right, rgba(128, 42, 193, 0.8), rgba(153, 52, 168, 0.8));
+}
+
+.footer-desc h3 {
+    font-family: rale-bold;
+    font-size: 25px;
+    color: #fff;
+    padding-bottom: 0px;
+}
+
+.footer-desc p {
+    color: #fff;
+    font-size: 17px;
+    padding: 15px 10px;
+}
+
+.footer-desc ul li a {
+    font-family: rale-regular;
+    font-size: 17px;
+    color: #fff;
+    padding: 2px 0;
+}
+
+.cpryt {
+    margin-top: 60px;
+}
+
+.cpryt p {
+    color: #fff;
+}
+
+/* ==== Footer Part CSS End ==== */
+
+/* ==== Breadcumb Part CSS Start ==== */
+
+#breadcumb {
+    background: url(../images/breadcumb-bg.png) no-repeat center;
+    background-size: cover;
+    padding-top: 160px;
+    padding-bottom: 70px;
+    position: relative;
+}
+
+#breadcumb:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient( to right, rgba(128, 42, 193, 0.9), rgba(153, 52, 168, 0.9));
+}
+
+#inner-page .navbar-expand-lg .navbar-nav .nav-link {
+    color: #fff;
+}
+
+#breadcumb .sec-header h2 {
+    color: #fff;
+}
+
+#breadcumb .sec-header h2:before {
+    background: #fff;
+}
+
+#breadcumb .sec-header h2::after {
+    background: #fff;
+}
+
+/* ==== Breadcumb Part CSS End ==== */
+
+/* ==== Pillars Part CSS Start ==== */
+
+#pillars {
+    padding: 60px 0;
+    padding-bottom: 0;
+}
+
+.header2 h2:before {
+    display: none !important;
+}
+
+.header2 h2:after {
+    display: none !important;
+}
+
+.header2 h2 {
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.header2 h2 span {
+    color: #8200FF;
+}
+
+#pillars .sec-header {
+    margin-bottom: 50px;
+}
+
+.pillar-item {
+    padding: 40px 20px;
+    box-sizing: border-box;
+    height: 390px;
+}
+
+.pillar-item h3 {
+    font-family: rale-semibold;
+    font-size: 28px;
+    color: #000;
+    padding-bottom: 25px;
+}
+
+.pillar-item-main {
+    position: relative;
+}
+
+.pillar-item-main:before {
+    position: absolute;
+    content: '';
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #F9F9F9;
+}
+
+.pillar-item-main:after {
+    position: absolute;
+    content: '';
+    width: 50%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background: #8200FF;
+    z-index: -9;
+}
+
+.pillar-item-main2 {
+    position: relative;
+}
+
+.pillar-item-main2:before {
+    position: absolute;
+    content: '';
+    width: 50%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background: #F9F9F9;
+}
+
+.pillar-item-main2:after {
+    position: absolute;
+    content: '';
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #8200FF;
+    z-index: -9;
+}
+
+.white h3 {
+    color: #fff;
+}
+
+.white p {
+    color: #fff;
+    line-height: 40px;
+}
+
+/* ==== Pillars Part CSS End ==== */
+
+/* ==== Small Banner Part CSS Start ==== */
+
+#sm-banner {
+    background: url(../images/small-banner-bg.png) no-repeat center;
+    background-size: cover;
+    padding: 50px 0;
+    position: relative;
+}
+
+#sm-banner:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(228, 228, 228, 0.9);
+    top: 0;
+    left: 0;
+}
+
+.sm-banner-desc h3 {
+    font-family: rale-semibold;
+    font-size: 28px;
+    color: #000;
+    padding: 0 40px;
+    padding-bottom: 40px;
+}
+
+/* ==== Small Banner Part CSS End ==== */
+
+/* ==== Case Study Part CSS Start ==== */
+
+#case-study {
+    padding: 60px 0;
+    background: #F9F9F9;
+    padding-bottom: 20px;
+}
+
+.case-item {
+    display: flex;
+    background: #fff;
+    border-radius: 30px;
+    margin-bottom: 40px;
+}
+
+.case-img {
+    width: 40%;
+}
+
+.case-desc {
+    width: 60%;
+    padding: 30px 60px;
+    box-sizing: border-box;
+}
+
+.case-desc h3 {
+    font-family: rale-bold;
+    font-size: 25px;
+    color: #8200FF;
+    padding-bottom: 21px;
+}
+
+.case-desc p {
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+/* ==== Case Study Part CSS End ==== */
+
+/* ==== Insights Part CSS Start ==== */
+
+#insight-page {
+    padding: 60px 0;
+    background: #F9F9F9;
+}
+
+.ip-item {
+    display: flex;
+    background: #fff;
+    box-shadow: 0px 0px 10px 0px #ddd;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.play {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #8200FF;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 30px;
+    cursor: pointer;
+}
+
+.play i {
+    font-family: pe-icon;
+    font-size: 30px;
+    line-height: 48px;
+    font-weight: bold;
+    color: #8200FF;
+    padding-left: 4px;
+}
+
+.ip-item .case-desc {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 0px;
+}
+
+.ip-item .case-desc h3 {
+    font-family: rale-semibold;
+    font-size: 18px;
+    color: #000;
+    line-height: 30px;
+    padding-bottom: 2px;
+}
+
+.ip-item .case-desc p {
+    padding: 6px 0;
+    padding-right: 110px;
+}
+
+.ip-item .case-desc a {
+    font-family: rale-semibold;
+    font-size: 14px;
+    color: #8200FF;
+}
+
+.inner-header h2 {
+    font-family: rale-bold;
+    font-size: 25px;
+    color: #8200FF;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.episode-item {
+    box-shadow: 0px 0px 20px 0px #ddd;
+}
+
+.episode-item .insight-content span {
+    font-family: rale-semibold;
+    font-size: 14px;
+    color: #8200FF;
+    margin-left: 0;
+}
+
+.episode-item .insight-content p {
+    padding-bottom: 25px;
+}
+
+.episode-item .insight-img {
+    position: relative;
+}
+
+.episode-item .insight-img .play {
+    border-color: #fff;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.episode-item .insight-img .play i {
+    color: #fff;
+}
+
+.episode-item .insight-img .overlay {
+    opacity: 0;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.episode-item:hover .overlay {
+    opacity: 1;
+}
+
+/* ==== Insights Part CSS End ==== */
+
+/* ==== About Us Part CSS Start ==== */
+
+#about {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.about-item-main {
+    margin-top: 20px;
+}
+
+.about-item {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.about-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(117, 27, 207, 0.8);
+    padding: 15px 20px;
+    box-sizing: border-box;
+    text-align: left;
+    opacity: 0;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.about-overlay h4 {
+    font-family: rale-semibold;
+    font-size: 22px;
+    color: #fff;
+}
+
+.about-overlay span {
+    font-family: rale-semibold;
+    font-size: 15px;
+    color: #fff;
+}
+
+.about-overlay p {
+    color: #fff;
+    line-height: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.about-item:hover .about-overlay {
+    opacity: 1;
+}
+
+/* ==== About Us Part CSS End ==== */
+
+/* ==== Career Part CSS Start ==== */
+
+#career {
+    padding: 60px 0;
+}
+
+.nav {
+    justify-content: center;
+    border-bottom: 2px solid rgba(132, 0, 255, 0.5);
+    margin-bottom: 10px;
+}
+
+#career .nav-pills .nav-link {
+    font-family: rale-semibold;
+    font-size: 18px;
+    color: #000;
+    text-transform: uppercase;
+    border-radius: 0;
+    margin-bottom: -3px;
+}
+
+#career .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: transparent;
+    border-bottom: 4px solid #8200FF;
+}
+
+.career-item {
+    padding: 30px;
+    box-sizing: border-box;
+    border: 2px solid #8200FF;
+    margin-top: 20px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.career-item h4 {
+    font-family: rale-semibold;
+    font-size: 22px;
+    color: #000;
+    line-height: 30px;
+    padding-bottom: 10px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.career-item p {
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.career-item:hover {
+    background: #8200FF;
+}
+
+.career-item:hover h4 {
+    color: #fff;
+}
+
+.career-item:hover p {
+    color: #fff;
+}
+
+.career-item:hover .read-btn a {
+    color: #fff;
+}
+
+.career-item:hover .read-btn span {
+    background: #fff;
+}
+
+/* ==== Career Part CSS End ==== */
+
+ul.zg-ul-select {
+    border-radius: 2px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    display: block;
+    padding: 5px 15px;
+}
+
+ul.zg-ul-select li {
+    border-radius: 3px;
+    display: none;
+    padding: 0 15px;
+}
+
+ul.zg-ul-select li.active {
+    border-radius: 3px;
+    display: flex;
+    padding: 5px 15px;
+}
+
+ul.zg-ul-select.active li {
+    border: none;
+    box-shadow: none;
+    display: block;
+}
+
+#selected--zg-ul-select {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    padding: 15px;
+}
+
+#selected--zg-ul-select.active {
+    padding: 5px 15px;
+    font-family: robo-medium;
+    font-size: 15px;
+    color: #428E22;
+    box-shadow: 0px 4px 14.72px 1.28px rgba(10, 10, 10, 0.05);
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.ic-mob-conditions .nav {
+    padding: 0 !important;
+}
+
+#ul-arrow {
+    width: 15px;
+    margin-left: auto;
+    margin-top: 5px;
+}
+
+#selected--zg-ul-select.active #ul-arrow {
+    margin-top: 3px;
+}
+
+#selected--zg-ul-select.active .nav-link {
+    padding: 10px 0;
+    color: #428E22;
+}
+
+.mob-condi-nav {
+    position: relative;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+.mob-condi-nav ul {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0;
+    background: #fff;
+    z-index: 99;
+}
+
+/* ===== Second Time Updating Single Case Page CSS Start ======== */
+
+.back-btn {
+    font-family: rale-regular;
+    font-size: 15px;
+    color: #fff;
+}
+
+.bread-desc a i {
+    padding-right: 10px;
+}
+
+.bread-desc h4 {
+    font-family: rale-semibold;
+    font-size: 32px;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.bread-desc p {
+    color: #fff;
+    padding-top: 15px;
+}
+
+.com-info {
+    margin-top: 10px;
+}
+
+.com-info span {
+    font-family: rale-regular;
+    font-size: 13px;
+    color: #f1f1f1;
+}
+
+.com-info h6 {
+    font-family: rale-semibold;
+    font-size: 16px;
+    color: #fff;
+}
+
+#single-case {
+    padding-top: 45px;
+    padding-bottom: 30px;
+}
+
+.single-company {
+    padding-bottom: 30px;
+}
+
+.single-company .inner-header h2 {
+    padding-bottom: 15px;
+}
+
+.single-company p {
+    padding-bottom: 20px;
+}
+
+.single-slide-main {
+    position: relative;
+}
+
+.single-right {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    line-height: 47px;
+    font-family: pe-icon;
+    font-size: 48px;
+    font-weight: bold;
+    color: #8200FF;
+    border-radius: 50%;
+    border: 2px solid #8200FF;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -100px;
+    cursor: pointer;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.single-right:hover {
+    color: #fff;
+    background: #8200FF;
+}
+
+.single-slide-item {
+    position: relative;
+}
+
+.single-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(161, 61, 255, 0.8);
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.single-slide-item:hover .single-overlay {
+    opacity: 1;
+}
+
+.single-overlay i {
+    font-size: 65px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* ===== Second Time Updating Single Case Page CSS End ======== */
+
+/* ==== Case Testimonial CSS Start ==== */
+
+#case-test {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.test-desc {
+    position: relative;
+}
+
+.quote {
+    position: absolute;
+    top: 0;
+    left: 30px;
+}
+
+.test-desc p {
+    font-family: rale-medium;
+    font-size: 25px;
+    line-height: 35px;
+    color: #AE1BB8;
+    padding: 0 130px;
+    padding-bottom: 20px;
+}
+
+.test-desc h6 {
+    font-family: rale-semibold;
+    font-size: 20px;
+    color: #707070;
+}
+
+/* ==== Case Testimonial CSS End ==== */
+
+/* ==== More Case CSS Start ==== */
+
+#more-case {
+    padding-bottom: 60px;
+}
+
+.more-case-item {
+    position: relative;
+    border-radius: 10px;
+}
+
+.more-case-item img {
+    border-radius: 10px;
+}
+
+.more-case-item .overlay {
+    opacity: 0;
+    border-radius: 10px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.more-case-item:hover .overlay {
+    opacity: 1;
+}
+
+.more-case-item h4 {
+    position: absolute;
+    bottom: 30px;
+    font-family: rale-semibold;
+    font-size: 22px;
+    color: #fff;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.more-case-item:hover h4 {
+    opacity: 0;
+}
+
+.more-case-item:hover .overlay h4 {
+    opacity: 1;
+}
+
+.more-case-item .overlay h5 {
+    font-family: rale-semibold;
+    font-size: 22px;
+    color: #fff;
+}
+
+.all-case {
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+
+.all-case a {
+    font-family: rale-medium;
+    font-size: 15px;
+    color: #000;
+}
+
+.all-case a i {
+    padding-left: 10px;
+}
+
+/* ==== More Case CSS End ==== */
+
+/* ==== Single Episode CSS Start ==== */
+
+.s-episode-bread h2 {
+    font-family: rale-semibold;
+    font-size: 30px;
+    color: #fff;
+}
+
+.s-episode-bread ul {
+    margin-top: 15px;
+}
+
+.s-episode-bread ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.s-episode-bread ul li a img {
+    width: 52px;
+}
+
+.s-episode-bread ul li a {
+    position: relative;
+    width: 52px;
+    height: 52px;
+    display: inline-block;
+}
+
+.s-episode-bread ul li:last-child a {
+    margin-bottom: -22px;
+}
+
+.s-episode-bread ul li a .play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-color: #fff;
+}
+
+.s-episode-bread ul li a .play i {
+    color: #fff;
+}
+
+#s-episode {
+    padding-top: 60px;
+}
+
+.s-episode-item h5 {
+    font-family: rale-semibold;
+    font-size: 25px;
+    color: #000;
+}
+
+.s-episode-item h5 {
+    font-family: rale-semibold;
+    font-size: 25px;
+    color: #000;
+    padding-top: 20px;
+}
+
+.s-episode-item p {
+    color: #707070;
+    padding-top: 15px;
+    font-size: 15px;
+}
+
+.s-episode-ad {
+    padding-top: 20px;
+}
+
+.s-episode-ad span {
+    font-family: rale-regular;
+    font-size: 14px;
+    color: #707070;
+    padding-top: 8px;
+    display: block;
+}
+
+.tag {
+    margin: 20px 0;
+}
+
+.tag li {
+    display: inline-block;
+    font-family: rale-regular;
+    font-size: 13px;
+    color: #000;
+    padding: 3px 15px;
+    background: #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.tag li:hover {
+    background: #8200FF;
+    color: #fff;
+}
+
+.tag li:last-child {
+    margin-right: 0;
+}
+.s-episode-footer {
+    margin-top: 30px;
+}
+
+.s-episode-footer a {
+    font-family: rale-semibold;
+    font-size: 16px;
+    color: #000;
+}
+
+.episode-social li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.episode-social li:last-child {
+    margin-right: 0;
+}
+
+.episode-social li a {
+    font-size: 20px;
+    color: #ccc;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.twitter:hover {
+    color: #55acee;
+}
+
+.facebook:hover {
+    color: #3b5999;
+}
+
+.linkedin:hover {
+    color: #0077B5;
+}
+
+#more-insight {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+#more-insight .insight-item {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* ==== Single Episode CSS End ==== */
+
+/* ==== Single Career CSS Start ==== */
+
+.s-career-bread h4 {
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.s-career-bread span {
+    font-family: rale-regular;
+    font-size: 17px;
+    color: #fff;
+    padding:2px 15px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    margin-bottom: 25px;
+}
+
+.s-career-bread .cb-btn {
+    margin: 0;
+}
+
+.file-type {
+	overflow: hidden;
+	position: relative;
+	display: block;
+	text-align: center;
+    padding: 40px 15px;
+    padding-top: 95px;
+    box-sizing: border-box;
+	font-family: rale-regular;
+	font-size: 15px;
+	color: #fff;
+	cursor: pointer;
+    margin-bottom: 0;
+    border-radius: 15px;
+}
+
+.file-type i {
+    font-family: pe-icon;
+    font-size: 40px;
+    color: #fff;
+    display: block;
+    margin-top: 5px;
+}
+
+.file-type [type=file] {
+	cursor: inherit;
+	display: block;
+	font-size: 999px;
+	filter: alpha(opacity=0);
+	min-height: 100%;
+	min-width: 100%;
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	text-align: right;
+	top: 0;
+}
+
+.upload-resume {
+    border: 1px solid #fff;
+    width: 200px;
+    border-radius: 15px;
+}
+
+#single-career {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.requirements h4 {
+    font-family: rale-semibold;
+    font-size: 28px;
+    color: #000;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+.requirements ul li {
+    margin: 10px 0;
+    font-family: rale-regular;
+    font-size: 16px;
+    color: #000;
+    position: relative;
+    padding-left: 35px;
+}
+
+.requirements ul li:before {
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 2px;
+    background: #8200FF;
+    top: 10px;
+    left: 0;
+}
+
+.single-career-btn ul {
+    margin-top: 50px;
+}
+
+.single-career-btn ul li {
+    display: inline-block;
+}
+
+.single-career-btn ul li:first-child a {
+    margin-left: 0;
+}
+
+.single-career-btn ul li:last-child a {
+    background-image: linear-gradient(to right, #0077B5 0%, #0077B5 33.3333%, #000 66.666667%, #000 100%);
+    border-color: #0077B5;
+}
+
+.single-career-btn ul li:last-child a:hover {
+    border-color: #000;
+}
+
+/* ==== Single Career CSS End ==== */
+
+/* ==== Single Service CSS Start ==== */
+
+#devops {
+    padding-top: 60px;
+}
+
+.devops-item {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.devops-item h2 {
+    font-family: rale-semibold;
+    font-size: 40px;
+    color: #8200FF;
+}
+
+.devops-desc {
+    padding-top: 30px;
+}
+
+.devops-desc p {
+    padding: 0 70px;
+}
+
+#single-service {
+    padding-top: 15px;
+}
+
+#ser-test {
+    padding: 60px 0;
+}
+
+.ser-test-head {
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.ser-test-head:before {
+    position: absolute;
+    content: '';
+    width: 200px;
+    height: 2px;
+    background: #EECEF0;
+    left: 0;
+    bottom: 0;
+}
+
+.ser-test-head h4 {
+    font-family: rale-semibold;
+    font-size: 25px;
+    color: #000;
+    padding-bottom: 5px;
+}
+
+.ser-test-head span {
+    font-family: rale-regular;
+    font-size: 16px;
+    color: #000;
+}
+
+.ser-test-desc {
+    position: relative;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.ser-test-desc img {
+    position: absolute;
+    opacity: .2;
+    top: 0;
+    left: 0;
+}
+
+.ser-test-desc p {
+    line-height: 24px;
+    color: #000;
+}
+
+#why {
+    background: #F9F9F9;
+    padding-top: 45px;
+    padding-bottom: 55px;
+}
+
+.next-link-item h4 {
+    font-family: rale-semibold;
+    font-size: 24px;
+    color: #8200FF;
+    padding-bottom: 15px;
+}
+
+.next-link-item p {
+    line-height: 40px;
+}
+
+/* ==== Single Service CSS End ==== */
+
+/* ==== Contact CSS Start ==== */
+
+#contact {
+    padding-top: 150px;
+    padding-bottom: 60px;
+}
+
+.contact-form h2 {
+    font-family: rale-semibold;
+    font-size: 28px;
+    color: #8200FF;
+    padding-bottom: 10px;
+}
+
+.contact-form form {
+    margin-top: 30px;
+}
+
+.contact-form .form-control {
+    border-radius: 0;
+    padding: 25px 15px;
+    font-family: rale-regular;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border-color: #B7B7B7;
+}
+
+.contact-form textarea {
+    padding-top: 15px !important;
+    height: 120px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #8200FF;
+}
+
+.contact-form button {
+    margin: 0;
+    padding: 10px;
+}
+
+button:focus {
+    box-shadow: none;
+}
+
+#contact-map {
+    background: #f9f9f9;
+}
+
+#test {
+    width: 100%;
+    height: 458px
+}
+
+.contact-address {
+    padding-top: 50px;
+}
+
+.address-item {
+    margin: 15px 0;
+}
+
+.address-item img {
+    padding-bottom: 10px;
+}
+
+.address-item a {
+    display: block;
+    font-family: rale-regular;
+    font-size: 16px;
+    color: #707070;
+}
+
+/* ==== Contact CSS End ==== */
